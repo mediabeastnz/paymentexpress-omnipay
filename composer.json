@@ -1,0 +1,34 @@
+{
+    "name": "mediabeastnz/paymentexpress-omnipay",
+    "type": "library",
+    "description": "Payment Express (DPS) driver for the Omnipay payment processing library",
+    "keywords": [
+        "direct payment solutions",
+        "dps",
+        "gateway",
+        "merchant",
+        "pay",
+        "payment express",
+        "payment",
+        "paymentexpress",
+        "pxaccess",
+        "pxpay",
+        "pxpost"
+    ],
+    "homepage": "https://github.com/mediabeastnz/paymentexpress-omnipay",
+    "authors": [
+        {
+            "name": "Myles Beardsmore",
+            "email": "mediabeastnz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\PaymentExpressCustom\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
